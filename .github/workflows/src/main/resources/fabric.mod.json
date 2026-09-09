@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "automaceslam",
+  "version": "1.0.0",
+  "name": "Auto Mace Slam",
+  "description": "Auto mace slam: shield break and mace attack by keybind.",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.automaceslam.AutoMaceSlamMod"],
+    "client": ["com.example.automaceslam.AutoMaceSlamClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "fabric-api": "*"
+  }
+}
